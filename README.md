@@ -43,3 +43,15 @@ nohup python3 ~/.local/bin/chat.py &
 ```
 
 ## Step 5: Optional: Add systemctl configuration (out of scope)
+
+
+# Usage
+
+## To Write
+/bin/bash -c 'echo $MY_QUESTION > /tmp/in_fifo'
+
+## To Read
+cat /tmp/out_fifo
+
+
+
