@@ -42,7 +42,4 @@ def main():
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument("query", nargs='*', help="The list of words to send to the chatbot")
-    args = parser.parse_args()
     main()
