@@ -1,6 +1,8 @@
 # ChatGPT FIFO daemon
 FIFO daemon for integrating revChatGPT plugin with Linux systems written in python
 
+## Why?
+I was looking for a way to glue various chatbot implementations to Linux services & various Rust projects. I built 3-ish implementations, and this was my favourite for its simplicity.
 
 ## Quickstart
 ## Step 1: Generate an API key
