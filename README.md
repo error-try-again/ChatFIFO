@@ -17,7 +17,7 @@ sudo apt install python3
 ```bash
 python3 -m pip install --upgrade revChatGPT
 ```
-[You can also download the source code from the Github page](https://github.com/openai/chatgpt-retrieval-plugin)
+[Link to gh source](https://github.com/openai/chatgpt-retrieval-plugin)
 
 ### Step 4: Verify your configuration
 ```bash
