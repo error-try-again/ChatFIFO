@@ -36,21 +36,7 @@ def chat_daemon():
 ## Step 5: Grant executable permissions to your script where it's installed
 ```bash
 chmod +x ~/.local/bin/chat.py
+chmod +x ~/.local/bin/worker.py
 ```
-
-
-## Step 5: Run daemon
-```bash
-nohup python3 ~/.local/bin/chat.py &
-```
-
-## Step 5: Optional: Add systemctl configuration (out of scope)
-
-
-# Usage
-
-## To Write
-/bin/bash -c 'echo $MY_QUESTION > /tmp/in_fifo'
-
-## To Read
-cat /tmp/out_fifo
+## Step 6: Run
+```gpt.sh whats your favourite food```
