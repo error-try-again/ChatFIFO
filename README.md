@@ -40,4 +40,5 @@ chmod +x ~/.local/bin/worker.py
 ```
 ### Step 6: Run
 ```bash 
-gpt.sh whats your favourite food```
+gpt.sh whats your favourite food
+```
