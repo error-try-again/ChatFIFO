@@ -54,7 +54,3 @@ nohup python3 ~/.local/bin/chat.py &
 
 ## To Read
 cat /tmp/out_fifo
-
-## Gif of a launcher integration I built on top of [a WIP search feature](https://github.com/canadaduane/launcher/tree/search-plugin) from POP-OS
-![WIP2](https://github.com/error-try-again/chatgpt-fifo-daemon/assets/19685177/8085456a-ff85-45fc-a2f8-caf3c8975b3b)
-
