@@ -82,7 +82,7 @@ just build-release && just plugins="search" install
 
 3. Usage
 
-`watch -n 1 'bat /tmp/chat.log'`
+`watch -n 1 'cat /tmp/chat.log'`
 
 Super Key/Whatever yours is bound to
 
