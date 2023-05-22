@@ -24,7 +24,7 @@ python3 -m pip install --upgrade revChatGPT
 python3 -m revChatGPT.V3 --api_key <your_new_api_key>
 ```
 
-### Step 4.1: Add your key to the code
+### Step 5: Add your key to the code
 ```python
 ...
 def chat_daemon():
@@ -33,12 +33,12 @@ def chat_daemon():
 ...
 ```
 
-### Step 5: Grant executable permissions to your script where it's installed
+### Step 6: Grant executable permissions to your script where it's installed
 ```bash
 chmod +x ~/.local/bin/chat.py
 chmod +x ~/.local/bin/worker.py
 ```
-### Step 6: Run
+### Step 7: Run
 ```bash 
 gpt.sh whats your favourite food
 ```
