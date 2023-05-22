@@ -42,3 +42,56 @@ chmod +x ~/.local/bin/worker.py
 ```bash 
 gpt.sh whats your favourite food
 ```
+
+### Advanced Pt 1: ChatGPT for the PopOS! Launcher
+
+[Here is an experimental fork of the popos launcher.](https://github.com/error-try-again/launcher)
+
+1. Git Setup
+
+```bash
+git clone https://github.com/error-try-again/launcher.git && cd launcher
+git checkout search-plugin && git pull origin search-plugin && git fetch
+```
+
+2. Rust Setup (if not installed/configured)
+
+```bash
+sudo apt install just
+curl https://sh.rustup.rs -sSf | bash -s -- -y --no-modify-path
+```
+
+```bash
+export PATH="$HOME/.cargo/env"
+```
+
+```bash
+rustc --version
+```
+
+```bash
+apt-get install libxkbcommon-x11-dev libglvnd-dev --yes
+```
+
+
+2. Compile & Install
+
+```bash
+just build-release && just plugins="search" install
+```
+
+3. Usage
+Super/Windows/Launcher Key
+
+*Type* !gpt whats your favourite food
+
+
+### Advanced Pt 2 (experimental): Modifying system prompts
+*this alters all future GPT prompts*
+
+Find the following line and modify the text accordingly. 
+
+```
+ chatbot = Chatbot(api_key=api_key, engine="gpt-3.5-turbo",
+                      system_prompt="You're a Tea expert, respond accordingly.")
+```
