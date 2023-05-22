@@ -89,7 +89,7 @@ Super/Windows/Launcher Key
 ### Advanced Pt 2 (experimental): Modifying system prompts
 *this alters all future GPT prompts*
 
-Find the following line and modify the text accordingly. 
+Find the following line in chat.py and modify the text accordingly. 
 
 ```
  chatbot = Chatbot(api_key=api_key, engine="gpt-3.5-turbo",
