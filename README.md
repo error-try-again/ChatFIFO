@@ -81,9 +81,11 @@ just build-release && just plugins="search" install
 ```
 
 3. Usage
-Super/Windows/Launcher Key
 
-*Type* !gpt whats your favourite food
+Super Key/Whatever yours is bound to
+
+*Type* 
+`!gpt whats your favourite food`
 
 
 ### Advanced Pt 2 (experimental): Modifying system prompts
