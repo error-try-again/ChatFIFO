@@ -82,6 +82,8 @@ just build-release && just plugins="search" install
 
 3. Usage
 
+` cat /tmp/out_fifo > ~/dump.txt & watch -n1 'cat ~/dump.txt'`
+
 Super Key/Whatever yours is bound to
 
 *Type* 
