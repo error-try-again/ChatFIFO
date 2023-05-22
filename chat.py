@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
 
-import os
 import atexit
+import os
 import sys
 import traceback
-
 from revChatGPT.V3 import Chatbot
 
 PID_FILE = '/tmp/chat.pid'
@@ -38,7 +37,8 @@ if not os.path.exists(OUT_FIFO):
 
 def chat_daemon():
     api_key = "your_api_key"
-    chatbot = Chatbot(api_key=api_key, engine="gpt-3.5-turbo")
+    chatbot = Chatbot(api_key=api_key, engine="gpt-3.5-turbo",
+                      system_prompt="You're a Tea expert, respond accordingly.")
 
     with open(IN_FIFO, 'r') as in_fifo:
         with open(OUT_FIFO, 'w') as out_fifo:
