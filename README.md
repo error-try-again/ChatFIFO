@@ -99,3 +99,7 @@ Find the following line in chat.py and modify the text accordingly.
  chatbot = Chatbot(api_key=api_key, engine="gpt-3.5-turbo",
                       system_prompt="You're a Tea expert, respond accordingly.")
 ```
+
+# Example
+
+[Screencast from 05-23-2023 01:43:33 PM.webm](https://github.com/error-try-again/chatgpt-fifo-daemon/assets/19685177/5629f2cc-10fe-49bd-9e63-d03734a78b7f)
