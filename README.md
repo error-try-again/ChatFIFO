@@ -90,7 +90,7 @@ Super Key/Whatever yours is bound to
 `!gpt whats your favourite food`
 
 
-### Advanced Pt 2 (experimental): Modifying system prompts
+### Advanced Pt 2 (experimental): Manipulate the base/system prompt
 *this alters all future GPT prompts*
 
 Find the following line in chat.py and modify the text accordingly. 
