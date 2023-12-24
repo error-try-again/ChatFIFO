@@ -1,8 +1,7 @@
 # ChatGPT FIFO daemon
-FIFO daemon for integrating revChatGPT plugin with Linux systems written in python
+I was looking for a way to integrate the revChatGPT plugin with other Linux services & a forked version of the PopOS search launcher to get ChatGPT search results at the press of a button. 
 
-### Why?
-I was looking for a way to glue various chatbot implementations to Linux services & various Rust projects. I built 3-ish implementations, and this was my favourite for its simplicity.
+By utilizing a FIFO implementation, information coming from the chat daemon is immediately written to a file, and in my case, the output is picked up by a forked version of the PopOS search launcher, which analyzes and looks at the responses and provides a notification accordingly. 
 
 ### Quickstart
 ### Step 1: Generate an API key
